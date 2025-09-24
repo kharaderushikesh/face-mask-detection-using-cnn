@@ -1,6 +1,6 @@
 😷 Face Mask Detection using CNN
 
-This project demonstrates [Face Mask Detection] (https://www.kaggle.com/datasets/omkargurav/face-mask-dataset) using a Convolutional Neural Network (CNN) built with TensorFlow/Keras.
+This project demonstrates [Face Mask Detection](https://www.kaggle.com/datasets/omkargurav/face-mask-dataset) using a Convolutional Neural Network (CNN) built with TensorFlow/Keras.
 The model is trained on the Face Mask Dataset
  from Kaggle.
 
@@ -46,7 +46,9 @@ Run:
 Dataset structure:
 
 data/
+
  ├── with_mask/
+ 
  └── without_mask/
 
 🧠 Model Architecture
@@ -112,4 +114,4 @@ Works on custom images uploaded to Colab.
 
 📜 License
 
-This project is for educational purposes. Dataset license: [Unknown on Kaggle] (https://www.kaggle.com/datasets/omkargurav/face-mask-dataset).
+This project is for educational purposes. Dataset license: [Unknown on Kaggle](https://www.kaggle.com/datasets/omkargurav/face-mask-dataset).
