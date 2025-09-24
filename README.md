@@ -1,6 +1,6 @@
 😷 Face Mask Detection using CNN
 
-This project demonstrates Face Mask Detection using a Convolutional Neural Network (CNN) built with TensorFlow/Keras.
+This project demonstrates Face Mask Detection(https://www.kaggle.com/datasets/omkargurav/face-mask-dataset) using a Convolutional Neural Network (CNN) built with TensorFlow/Keras.
 The model is trained on the Face Mask Dataset
  from Kaggle.
 
@@ -26,8 +26,7 @@ Click the button to run this project in Colab:
 
 3. Setup Kaggle API
 
-Go to Kaggle Account → API
-.
+Go to Kaggle Account(https://www.kaggle.com/account) → API.
 
 Create and download kaggle.json.
 
@@ -48,7 +47,6 @@ Dataset structure:
 
 data/
  ├── with_mask/
- 
  └── without_mask/
 
 🧠 Model Architecture
@@ -73,51 +71,6 @@ Optimizer: Adam
 Loss: Binary Crossentropy
 
 Metrics: Accuracy
-
-🖼 CNN Architecture Flow
-Input Image (128x128x3)
-        │
-        ▼
-┌────────────────────┐
-│ Conv2D (32 filters)│
-└────────────────────┘
-        │
-        ▼
-┌────────────────────┐
-│ MaxPooling2D       │
-└────────────────────┘
-        │
-        ▼
-┌────────────────────┐
-│ Conv2D (64 filters)│
-└────────────────────┘
-        │
-        ▼
-┌────────────────────┐
-│ MaxPooling2D       │
-└────────────────────┘
-        │
-        ▼
-┌────────────────────┐
-│ Flatten            │
-└────────────────────┘
-        │
-        ▼
-┌────────────────────┐
-│ Dense (128, ReLU)  │
-│ Dropout (0.5)      │
-└────────────────────┘
-        │
-        ▼
-┌────────────────────┐
-│ Dense (64, ReLU)   │
-│ Dropout (0.5)      │
-└────────────────────┘
-        │
-        ▼
-┌────────────────────┐
-│ Dense (1, Sigmoid) │ → Output: [Mask / No Mask]
-└────────────────────┘
 
 📊 Training
 history = model.fit(
@@ -159,4 +112,4 @@ Works on custom images uploaded to Colab.
 
 📜 License
 
-This project is for educational purposes. Dataset license: Unknown on Kaggle.
+This project is for educational purposes. Dataset license: Unknown on Kaggle (https://www.kaggle.com/datasets/omkargurav/face-mask-dataset).
